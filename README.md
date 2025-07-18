@@ -1,81 +1,112 @@
-# 🚀 DocQuify
+# DocQuify: AI-Powered Document Querying Platform
 
-**DocQuify** is a powerful AI-powered platform that helps users extract relevant information from research papers and technical documentation by asking natural language questions. Upload PDFs and ask context-based queries to get quick, accurate answers — without reading the entire document.
+![GitHub release](https://img.shields.io/github/release/maharishiayurveda/DocQuify.svg)
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/maharishiayurveda/DocQuify/releases)
 
----
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## ✨ Features
+## Overview
 
-- 📄 **PDF Upload**: Upload research papers or technical docs for smart processing.
-- ❓ **Context-Based Question Answering**: Ask questions and get answers directly from the uploaded content.
-- 🔍 **Stay Updated**: Understand new tech trends by uploading the latest whitepapers or articles.
-- 🔐 **Google Login Integration**: Secure, seamless sign-in using Clerk’s Google Auth.
-- ☁️ **AWS S3 Storage**: Store and access documents reliably.
-- 🧠 **AI + Vector Search**: Uses OpenAI and Pinecone for semantic search and precise answers.
+DocQuify is an AI-powered document querying platform designed to enhance the way users interact with PDFs. Users can upload documents such as research papers and technical manuals, then ask context-based questions. Leveraging OpenAI's capabilities and advanced vector search technology, DocQuify provides intelligent answers tailored to the content of the uploaded documents.
 
----
+## Features
 
-## 🛠️ Tech Stack
+- **AI-Powered Queries**: Use OpenAI to ask questions about your documents and receive accurate, context-based answers.
+- **PDF Upload**: Seamlessly upload PDFs for analysis.
+- **Smart Semantic Search**: Integrate with Pinecone for efficient vector-based searches, ensuring quick retrieval of relevant information.
+- **AWS S3 Storage**: Store your documents securely in AWS S3, ensuring reliability and scalability.
+- **Google Authentication**: Easy and secure sign-in using Google accounts.
 
-| Layer         | Tech Used                         |
-|---------------|-----------------------------------|
-| Frontend      | Next.js, TypeScript               |
-| Backend       | Node.js, Express.js, PostgreSQL   |
-| Authentication| Clerk (Google Login)              |
-| Storage       | AWS S3                            |
-| AI & Search   | OpenAI API, Pinecone Vector DB    |
+## Technologies Used
 
----
-## ⚙️ Installation & Setup
+- **Next.js 14**: A powerful React framework for building server-side rendered applications.
+- **OpenAI API**: For generating intelligent responses to user queries.
+- **Pinecone**: A vector database that supports semantic search capabilities.
+- **AWS S3**: For secure document storage.
+- **Clerk Auth**: For user authentication and management.
 
-### 1. Clone the Repository
+## Installation
 
-```bash
-git clone https://github.com/yourusername/docquify.git
-cd docquify
+To get started with DocQuify, follow these steps:
 
-2. Install Dependencies
-bash
-Copy
-Edit
-npm install
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/maharishiayurveda/DocQuify.git
+   cd DocQuify
+   ```
 
-3. Set Environment Variables
-Create a .env file in the root directory and add the following:
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-env
-Copy
-Edit
-JWT_SECRET=your_jwt_secret
-AWS_S3_BUCKET_NAME=your_bucket_name
-AWS_ACCESS_KEY_ID=your_access_key
-AWS_SECRET_ACCESS_KEY=your_secret_key
-OPENAI_API_KEY=your_openai_key
-PINECONE_API_KEY=your_pinecone_key
+3. **Set Up Environment Variables**:
+   Create a `.env.local` file in the root directory and add the following variables:
+   ```
+   OPENAI_API_KEY=your_openai_api_key
+   AWS_S3_BUCKET=your_aws_s3_bucket_name
+   PINECONE_API_KEY=your_pinecone_api_key
+   GOOGLE_CLIENT_ID=your_google_client_id
+   GOOGLE_CLIENT_SECRET=your_google_client_secret
+   ```
 
+4. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
 
-4. Run the Development Server
-bash
-Copy
-Edit
-npm run dev
-🤝 Contributing
-We welcome contributions! To contribute:
+5. **Access the Application**:
+   Open your browser and go to `http://localhost:3000`.
 
-Fork the repository
+## Usage
 
-Create a new branch (git checkout -b feature-name)
+1. **Upload a PDF**: Click on the upload button to select a PDF file from your device.
+2. **Ask Questions**: After uploading, type your questions in the query box.
+3. **Receive Answers**: The AI will analyze the document and provide context-based answers.
+4. **Explore Results**: Use the semantic search feature to explore related content within the document.
 
-Make your changes
+## Contributing
 
-Submit a pull request
+We welcome contributions to DocQuify. If you would like to contribute, please follow these steps:
 
-Found a bug or have a suggestion? Feel free to open an issue.
- 
- Let me know if:
-- You want the markdown as a downloadable `.md` file.
-- You have a live deployment link to add.
-- You want to include screenshots or a GIF demo.
+1. **Fork the Repository**: Click on the fork button in the top right corner.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request".
 
+## License
 
-  
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, please reach out to the maintainer:
+
+- **Name**: [Your Name]
+- **Email**: your.email@example.com
+- **GitHub**: [maharishiayurveda](https://github.com/maharishiayurveda)
+
+For more information about releases, please visit the [Releases section](https://github.com/maharishiayurveda/DocQuify/releases).
+
+![DocQuify Logo](https://via.placeholder.com/600x200.png?text=DocQuify+Logo)
+
+Feel free to explore and enjoy using DocQuify for all your document querying needs!
